@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae9b79f834.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer and Python Developer</p>
+                <h1>Hi, I'm <span>Revanth Reddy</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/149798.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"As a final year student in Computer Science Engineering, I am passionate about applying my
+                        strong foundation in programming, problem-solving, and software development to tackle real-world
+                        challenges.
+                        Eager to contribute my technical skills and enthusiasm for innovation in a dynamic team
+                        environment.
+                        Excited to learn and grow while making a meaningful impact in the world of technology."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onClick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onClick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web Pages</li>
+                            <li><span>MySQL</span><br>Managing databases</li>
+                            <li><span>Python Programming</span><br>Problem Solving</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023 - June 2023</span><br> Machine Learning using python</li>
+                            <li><span>June 2023 - October 2023</span><br>Java Full Stack Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>KORM college of engineering, Andhra Pradesh</li>
+                            <li><span>2017 - 2019</span><br>MS Ramaiah PU college, Bangalore</li>
+                            <li><span>2016 - 2017</span><br>Montfort School, Andhra Pradesh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------services-------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <P>Web design is the creation of websites and pages to reflect a company’s brand and information and
+                        ensure a user-friendly experience.
+                        Appearance and design are incorporated as vital elements whether you’re designing a website,
+                        mobile app or maintaining content on a web page</P>
+                    <a href="https://www.indeed.com/career-advice/finding-a-job/what-is-web-designing">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Programming</h2>
+                    <P>Python is a computer programming language often used to build websites and software, automate
+                        tasks, and conduct data analysis.
+                        Python is a general-purpose language, meaning it can be used to create a variety of different
+                        programs and isn't specialized for any specific problems.
+                        This versatility, along with its beginner-friendliness, has made it one of the most-used
+                        programming languages today.</P>
+                    <a href="https://www.tutorialspoint.com/python/python_quick_guide.htm">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL</h2>
+                    <P>MySQL is open-source and user-friendly. It creates a database to store and manipulate the data.
+                        To perform various operations users make requests by typing specific statements.
+                        The server responds to the information from the user and Displays it on the user side.</P>
+                    <a href="https://www.w3schools.com/mysql/mysql_intro.asp">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/udemy data science_page-0001.jpg">
+                    <div class="layer">
+                        <h3>Udemy</h3>
+                        <p>Complete Data Science Bootcamp</p>
+                        <a href="http://ude.my/UC-4a0eb6ac-723c-4e11-9ce7-a0411be2e61d"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/oracle cloud foundations associate_page-0001.jpg">
+                    <div class="layer">
+                        <h3>Oracle</h3>
+                        <p>Oracle Cloud Foundations Associate</p>
+                        <a
+                            href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=89DCCFC43A4FD8A5AD6582E42650631FED25CB8218CE3AF41C9DFE925FA711DF"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/REVANTH REDDY CERTIFICATE_page-0001.jpg">
+                    <div class="layer">
+                        <h3>Prinston Smart Engineers</h3>
+                        <p>Machine Learning</p>
+                        <a href="https://prinstonsmart.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="certificates.html" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------contact----------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>revanthreddykarnati@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume R.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright<span> &#169;</span> <i class="fa-solid fa-heart"></i> made by Revanth Reddy</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzOMsKucMGLi2XrKD2x6Wz-dKBejZWWOUQB7v0ABEADS-PXQdYwULePXuyBdQN0Zv_9DA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
